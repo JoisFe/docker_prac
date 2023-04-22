@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>테스트</title>
+</head>
+<body>
+<h1>Hi Hosting Developer</h1>
+
+<form action="/" method="post">
+    나이 입력: <input type="number" name="age"><br>
+    <button type="submit">입력</button>
+</form>
+
+<ul>
+    <th:block th:each="person : ${people}">
+        <li th:text="${person.name}"></li>
+    </th:block>
+</ul>
+</body>
+</html>
