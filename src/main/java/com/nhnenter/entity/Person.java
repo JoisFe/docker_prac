@@ -1,4 +1,4 @@
-package com.nhnenter.joisfe.entity;
+package com.nhnenter.entity;
 
 import lombok.Getter;
 
@@ -21,6 +21,4 @@ public class Person {
 
     @Column(name = "name")
     private String name;
-
-    // 생성자, Getter/Setter, toString 등 생략
 }

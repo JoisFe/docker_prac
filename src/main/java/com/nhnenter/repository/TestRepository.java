@@ -1,7 +1,7 @@
 
-package com.nhnenter.joisfe.repository;
+package com.nhnenter.repository;
 
-import com.nhnenter.joisfe.entity.Person;
+import com.nhnenter.entity.Person;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

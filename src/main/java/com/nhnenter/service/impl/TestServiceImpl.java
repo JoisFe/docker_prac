@@ -1,8 +1,8 @@
-package com.nhnenter.joisfe.service.impl;
+package com.nhnenter.service.impl;
 
-import com.nhnenter.joisfe.entity.Person;
-import com.nhnenter.joisfe.repository.TestRepository;
-import com.nhnenter.joisfe.service.TestService;
+import com.nhnenter.entity.Person;
+import com.nhnenter.repository.TestRepository;
+import com.nhnenter.service.TestService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

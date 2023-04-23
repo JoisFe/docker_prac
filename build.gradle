@@ -35,4 +35,9 @@ tasks.named('test') {
 bootJar{
 	archiveFileName = 'joisfe.jar'
 	archiveVersion = "0.0.0"
+	enabled = false
+}
+
+jar {
+	enabled = true
 }

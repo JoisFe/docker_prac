@@ -1,4 +1,4 @@
-package com.nhnenter.joisfe;
+package com.nhnenter;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

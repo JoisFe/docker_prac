@@ -1,6 +1,6 @@
-package com.nhnenter.joisfe.service;
+package com.nhnenter.service;
 
-import com.nhnenter.joisfe.entity.Person;
+import com.nhnenter.entity.Person;
 
 import java.util.List;
 
