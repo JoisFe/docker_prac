@@ -1,0 +1,40 @@
+version: "3"
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - "8080:8080"
+    depends_on:
+      - mysql
+    networks:
+      - joisfe_network
+
+  mysql:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: 1234
+      MYSQL_DATABASE: test_db
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./mysql-data:/var/lib/mysql
+    networks:
+      - joisfe_network
+
+  nginx:
+    build:
+      context: .
+      dockerfile: ./nginx_docker/Dockerfile
+    ports:
+      - "80:80"
+    depends_on:
+      - app
+    networks:
+      - joisfe_network
+
+networks:
+  joisfe_network:
+
