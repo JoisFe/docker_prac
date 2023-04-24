@@ -7,5 +7,8 @@ CREATE TABLE person (
   PRIMARY KEY (no)
 );
 
-INSERT INTO person (no, age, name) VALUES (1, 29, '조재철');
-INSERT INTO person (no, age, name) VALUES (2, 29, '조현진');
+INSERT INTO person (no, age, name) VALUES (1, 29, 'joisfe');
+INSERT INTO person (no, age, name) VALUES (2, 29, 'hyunjin-jo');
+INSERT INTO person (no, age, name) VALUES (3, 27, 'kds3335k');
+INSERT INTO person (no, age, name) VALUES (4, 26, 'semi-kim');
+INSERT INTO person (no, age, name) VALUES (5, 26, 'bomin-kim');
