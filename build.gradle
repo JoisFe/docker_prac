@@ -32,12 +32,6 @@ tasks.named('test') {
 	useJUnitPlatform()
 }
 
-bootJar{
-	archiveFileName = 'joisfe.jar'
-	archiveVersion = "0.0.0"
-	enabled = false
-}
-
 jar {
-	enabled = true
+	archiveFileName = 'joisfe.jar'
 }
