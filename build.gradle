@@ -37,4 +37,5 @@ bootJar{
 	archiveVersion = "0.0.0"
 	enabled = true
 	mainClass= 'com.nhnenter.JoisfeApplication'
+	destinationDirectory = file("./")
 }

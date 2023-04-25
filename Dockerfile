@@ -12,7 +12,7 @@ RUN ./gradlew --no-daemon clean build
 
 COPY src src
 
-COPY build/libs/joisfe.jar .
+COPY ./joisfe.jar .
 
 EXPOSE 8080
 
