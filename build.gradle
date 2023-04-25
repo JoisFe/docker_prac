@@ -36,4 +36,5 @@ bootJar{
 	archiveFileName = 'joisfe.jar'
 	archiveVersion = "0.0.0"
 	enabled = true
+	mainClass= 'com.nhnenter.JoisfeApplication'
 }
